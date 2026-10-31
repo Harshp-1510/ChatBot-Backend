@@ -13,8 +13,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "https://chat-bot-frontend-1a32xkm0c-patil16.vercel.app",
+        "https://chat-bot-frontend-57gbsj3x3-patil16.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
